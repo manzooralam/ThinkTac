@@ -1,0 +1,158 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  p {
+    margin: 0
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  #b {
+    background-color: #191b80;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 62px;
+  }
+  
+  #cr {
+    background-color: white;
+    border: 1px solid #090596;
+    border-radius: 15px;
+    margin-left: 60px;
+    padding: 5px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    color: #191b80;
+    cursor: pointer;
+  }
+  
+  .restart-btn {
+    background-color: #191b80;
+    color: white;
+    display: block;
+    margin: 10px;
+    margin-left: 55px;
+    margin-top: 10PX;
+    padding: 5px;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .switch {
+    margin-inline: 10px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked+.slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+    
+  .btn-group {
+    background-color: #bcf6f6;
+    border: 1px solid #090596;
+    padding: 5px 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .canvas {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+/* html{
+    display: flex;
+    justify-content: center;
+} */
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 95vh;
+    margin:0;
+    height:auto;
+    vertical-align: middle;
+    padding: 1em;
+}
+  #c {
+  
+    display: inline-block;
+  }
+  
+  #gr {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #sunny {
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    font-size: large;
+  }
+  
+  #cloud {
+    display: inline-block;
+    font-size: large;
+  }
+  
+  #counter {
+    color: #046687;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #gr {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .canvas{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+      }
+  }
+  
+ 
