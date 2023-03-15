@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "target": "photo-tropism-1",
+    "public": "dist/photo-tropism-1",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

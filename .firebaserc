@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "thinktac-games": {
+      "hosting": {
+        "photo-tropism-1": [
+          "photo-tropism-1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "thinktac-games"
+  }
+}
